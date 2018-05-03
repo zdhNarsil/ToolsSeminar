@@ -1,6 +1,7 @@
 # Backup files
 *~
 *.bak
+*~/
 
 # .gitignore itself
 .gitignore
@@ -26,7 +27,9 @@ nppBackup
 __pycache__
 .vscode
 *.tmp
-.ipynb_checkpoints
+.ipynb_checkpoints/
+data/
+*.swp
 
 # Binary files
 *.pdf
@@ -61,3 +64,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Forced files
+!Week07-TikZ/pics/lenet.pdf
